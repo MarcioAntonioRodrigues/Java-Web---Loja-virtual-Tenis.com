@@ -1,0 +1,121 @@
+@charset "UTF-8";
+  *{
+		margin:0;
+		padding: 0;
+		list-style: none;
+		text-decoration: none;
+		font-size: 100%;
+		font-family: sans-serif;
+	}
+	.alerta{
+	text-align:center;
+	float: right;
+	margin-right: 21%;
+	}
+	#buscar{
+	background-color:#5a2d82;
+	padding:20px;
+	}
+	.button{
+	border-radius:10px;
+	font-size:15px;
+	margin:15px;
+	padding:5px
+	}
+	.buttonLink{
+	background-color:#007bff;
+	border-radius:4px;
+	padding: 2px;
+	width: 7%;
+	margin: 50px auto;
+	clear:both;
+	text-align:center;
+	transition:.5s;
+	border:solid 1px #007bff; 
+	}
+	.buttonLink:hover{
+	background-color:white;
+	border:solid 1px #007bff; 
+	}
+	.buttonLink a{
+	color:white;
+	text-decoration:none;
+	transition:.5s;
+	}
+	.buttonLink a:hover{
+	color:#007bff;
+	}
+	#cadastrese{
+	margin-top: -40px;
+	margin-right: -70px;
+	margin-bottom: -30px;
+	}
+	#carrinho{
+	width:25px;
+	background-color:red;
+	border-radius:50%;
+	text-align:center;
+	margin-left:-30px;
+	float:right;
+	}
+	#estilo{
+	color:white; 
+	font-size:20px;
+	text-align:center;
+	padding-top:50px;
+	}
+	#logotipo{
+	width:140px;
+	float:left;	
+	}
+	#menu{
+		width: 100%;
+		height: 50px;
+		position: relative;
+		background-color: #5a2d82;
+		overflow: visible;
+	}
+	.menu{
+		width: 960px;
+		position: relative;
+		margin:0 auto;
+		text-align:center;
+	}
+	#menu li{
+		width: 150px;
+		height: 40px;
+		position: relative;
+		float: left;
+		line-height: 40px;
+		background-color: #5a2d82;
+		text-align: center;
+	}
+
+	#menu li a{
+		color:#fff;
+	}
+
+	#menu ul li:hover{
+		background-color: #3d164b;
+	}
+	#search{
+	border-radius:20px;
+	width:400px;
+	height:10px;
+	padding:10px;
+	margin-left: 270px
+	}
+	.vitrine{
+	float:left; 
+	margin:50px 15px;
+	text-align:center;
+	color:black;
+	font-size:20px;
+	}
+	.vitrine2{
+	margin:50px 15px;
+	text-align:center;
+	color:black;
+	font-size:20px;
+	}
+	
